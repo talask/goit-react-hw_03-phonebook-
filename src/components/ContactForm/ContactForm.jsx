@@ -36,7 +36,7 @@ export const ContactForm = ({contactsChange}) => {
             initialValues = {initialValues}
             validationSchema = {schema}
             onSubmit = {(values, {resetForm}) => {
-              console.log(values);
+              
               contactsChange(values);
               resetForm();
             }}

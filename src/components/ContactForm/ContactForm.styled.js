@@ -19,8 +19,6 @@ export const Button = styled.button`
 `;
 
 export const DivMyForm = styled.div`
-    /* display: flex;
-    flex-direction: column; */
     border: 1px solid lightgrey;
     width: 300px;
     padding: 15px;
